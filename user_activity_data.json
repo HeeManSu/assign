@@ -1,32 +1,72 @@
 [
   {
-    "_id": "61a7345d1c4ae1c58d123456",
-    "name": "Brad",
-    "date": "2022-04-01",
-    "activity": []
+    "date": "2022-04-01T00:00:00.000Z",
+    "user": "a",
+    "mood_score": 8,
+    "activity": [
+      {
+        "activity": "run",
+        "steps": 6250,
+        "distance": 5,
+        "duration": 2520000
+      },
+      {
+        "activity": "swim",
+        "distance": 200,
+        "duration": 2400000
+      },
+      {
+        "activity": "walk",
+        "steps": 3000,
+        "distance": 2,
+        "duration": 1800000
+      }
+    ],
+    "sleep": {
+      "hours_in_bed": null
+    }
   },
   {
-    "_id": "61a7345d1c4ae1c58d654321",
-    "name": "Alice",
-    "date": "2022-04-01",
-    "activity": []
+    "date": "2022-04-01T00:00:00.000Z",
+    "user": "b",
+    "mood_score": 9,
+    "activity": [
+      {
+        "activity": "run",
+        "steps": 7000,
+        "distance": 6,
+        "duration": 2700000
+      }
+    ],
+    "sleep": {
+      "hours_in_bed": null
+    }
   },
   {
-    "_id": "61b7345d1c4ae1c58d789012",
-    "name": "Charlie",
-    "date": "2022-04-01",
-    "activity": []
+    "date": "2022-04-01T00:00:00.000Z",
+    "user": "c",
+    "mood_score": 7,
+    "activity": [],
+    "sleep": {
+      "hours_in_bed": null
+    }
   },
   {
-    "_id": "61c7345d1c4ae1c58d987654",
-    "name": "Diana",
-    "date": "2022-04-01",
-    "activity": []
+    "date": "2022-04-01T00:00:00.000Z",
+    "user": "d",
+    "mood_score": 6,
+    "activity": [],
+    "sleep": {
+      "hours_in_bed": null
+    }
   },
   {
-    "_id": "61d7345d1c4ae1c58d543210",
-    "name": "Edward",
-    "date": "2022-04-01",
-    "activity": []
+    "date": "2022-04-01T00:00:00.000Z",
+    "user": "e",
+    "mood_score": 8,
+    "activity": [],
+    "sleep": {
+      "hours_in_bed": null
+    }
   }
 ]
